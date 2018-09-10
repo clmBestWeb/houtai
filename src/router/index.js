@@ -3,10 +3,10 @@ import Router from 'vue-router';
 
 Vue.use(Router);
 
-import Login from '@/views/ '
+import Login from '../views/Login.vue';
 
 export default new Router({
     routes: [
-        { name: 'login', path: '/login', component: 'Login' }
+        { name: 'login', path: '/login', component: Login }
     ]
 });
